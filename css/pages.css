@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: #FAE7B8; }
+
+main .title {
+  margin: 40px 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px; }
+
+main .img-section {
+  width: 80%;
+  margin: 40px auto; }
+  @media (max-width: 768px) {
+    main .img-section {
+      margin: 35px auto; } }
+  @media (max-width: 480px) {
+    main .img-section {
+      margin: 30px auto; } }
+  main .img-section .img {
+    margin: 0 auto;
+    max-width: 60%; }
+    @media (max-width: 992px) {
+      main .img-section .img {
+        max-width: 70%; } }
+    @media (max-width: 768px) {
+      main .img-section .img {
+        max-width: 85%; } }
+    @media (max-width: 480px) {
+      main .img-section .img {
+        max-width: 100%; } }
+
+main .video-section {
+  width: 80%;
+  margin: 40px auto;
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 45%; }
+  @media (max-width: 992px) {
+    main .video-section {
+      width: 85%;
+      padding-bottom: 48%; } }
+  @media (max-width: 768px) {
+    main .video-section {
+      width: 90%;
+      margin: 35px auto;
+      padding-bottom: 50.5%; } }
+  @media (max-width: 480px) {
+    main .video-section {
+      width: 100%;
+      padding-bottom: 56.25%;
+      margin: 30px auto; } }
+  main .video-section iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
